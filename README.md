@@ -9,11 +9,11 @@ The package takes following six inputs --
 4. Event name
 5. Organization name
 6. Issuer name
-
+7. Output path 
 
 # Sample Code
 
-import certiGenerator
-api = certificateGenerator()
+import certiGenerator <br />
+api = certiGenerator.certificateGenerator()
 
-api.generate_certificate("certificate_template.png","google.png","Yatharth Arora","Software Development","Google","Google India")
+api.generate_certificate("certificate_template.png","google.png","Yatharth Arora","Software Development","Google","Google India","test.jpg")
